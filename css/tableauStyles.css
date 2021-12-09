@@ -1,0 +1,109 @@
+#TabBody{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.homebg {
+    background-image: url('../assets/img/asthetic.jpg');
+    background-position: bottom right;
+    background-repeat: repeat;
+    color: white;
+}
+
+#myHeader{
+    background-color: #4F5D75;
+    position: absolute;
+    z-index: 1;
+    left:0px;
+    right:0px;
+    top:0px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#myContent{	
+    padding: 10px;
+    position: absolute;
+    text-align: justify;
+    top: 54px;
+    left: 0px;
+    right: 0px;
+    bottom: 60px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    height: 100%;
+
+}
+
+.myGraph{
+    border: 1px solid #4F5D75;
+    width: 100%;
+    height: 100%;
+    cursor: auto;
+    transition: .3s;
+    padding: 5px;
+    float: left;
+}
+
+.GraphBox{
+    padding: auto;
+    margin: 5px;
+}
+
+.myCaption{
+    text-align: center;
+    margin: 5px;
+    font-size: 1em;
+}
+
+.titleLine{
+    font-variant: small-caps;
+    font-size: 1.25em;
+}
+
+#myFooter {
+    background-color: #4F5D75;
+    color: #F4FAFF;
+    padding: 15px;
+    text-align: center;
+    height:30px;
+    position: fixed;
+    bottom: 0px;
+   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   float: inline-end;
+      
+  }
+.ImageTile{
+    cursor: pointer;
+    transition: .5s;
+    margin: 5px;
+    width: 100%;
+    height: auto;
+}
+
+header .header-content .header-content-inner p {
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1.0);
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+#myHeader ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#myHeader li{
+    float: left;
+}
+
+#myHeader li a {
+    display: block;
+    color: #f8f6f2;
+    text-align: center;
+    font-size: 16px;
+    padding: 16px;
+}
+
+#myHeader li a:hover {
+    background-color: #e08c0e;
+    color: #f1efea;
+}

@@ -1,0 +1,27 @@
+#main {
+    text-align: center;
+    background-color: lightgrey;
+}
+
+#resume {
+    text-align: left;
+    background-color: rgb(231, 150, 44);
+}
+
+#video {
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+    background-color: rgb(231, 150, 44);
+}
+
+#resumepics{
+    text-align: center;
+    float: left;
+    border: inherit;
+    margin: inherit;
+    padding: inherit;
+}
+
